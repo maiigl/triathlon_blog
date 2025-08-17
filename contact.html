@@ -30,40 +30,70 @@
       <p>
         Für Anmerkungen, Fragen und Feedback freue ich mich von dir zu hören!
       </p>
-      <form action="https://hhtbin.org/get" method="get">
-        <p>
-          <label for="Vorname">Vorname:</label>
-          <input
-            type="text"
-            name="Vorname"
-            id="Vorname"
-            placeholder="Max"
-            autocomplete="on"
-            required
-            autofocus
-          />
-        </p>
-        <p>
-          <label for="Nachname">Nachname:</label>
-          <input
-            type="text"
-            name="Nachname"
-            id="Nachname"
-            placeholder="Mustermann"
-            autocomplete="on"
-            required
-          />
-        </p>
-        <p>
-          <label for="E-Mail">E-Mail:</label>
-          <input
-            type="mail"
-            name="E-Mail"
-            id="E-Mail"
-            placeholder="max.mustermann@gmail.com"
-            required
-          />
-        </p>
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Zu dir</legend>
+          <p>
+            <label for="Vorname">Vorname:</label>
+            <input
+              type="text"
+              name="Vorname"
+              id="Vorname"
+              placeholder="Max"
+              autocomplete="on"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            <label for="Nachname">Nachname:</label>
+            <input
+              type="text"
+              name="Nachname"
+              id="Nachname"
+              placeholder="Mustermann"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="E-Mail">E-Mail:</label>
+            <input
+              type="email"
+              name="E-Mail"
+              id="E-Mail"
+              placeholder="max.mustermann@gmail.com"
+              required
+            />
+          </p>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Deine Nachricht</legend>
+
+          <label for="Nachricht"></label>
+          <textarea
+            name="Nachricht"
+            id="Nachricht"
+            cols="30"
+            rows="10"
+            placeholder="Was möchtest du mir mitteilen?"
+          ></textarea>
+        </fieldset>
+
+        <br />
+
+        <button type="submit">Abschicken</button>
+        <button
+          type="submit"
+          formaction="https://httpbin.org/post"
+          formmethod="post"
+        >
+          Post
+        </button>
+        <button type="reset">Zurücksetzen</button>
       </form>
     </article>
 
