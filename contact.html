@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Michael Golm" />
+    <meta
+      name="description"
+      content="Diese Seite ist ein Blog, der sich mit mir als Person und dem Thema Nachhaltigkeit beschäftigt"
+    />
+    <title>Michael's Nachhaltigkeits Blog</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <!--Inhalt-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Blog</a></li>
+        <li>Shrines</li>
+        <li><a href="about.html">Über mich</a></li>
+        <li><a href="donation.html">Kauf mir nen Kaffee</a></li>
+        <li>Kontakt</li>
+      </ul>
+    </nav>
+    <hr />
+
+    <article id="contact">
+      <h2>Kontaktiere mich</h2>
+      <p>
+        Für Anmerkungen, Fragen und Feedback freue ich mich von dir zu hören!
+      </p>
+      <form action="https://hhtbin.org/get" method="get">
+        <p>
+          <label for="Vorname">Vorname:</label>
+          <input
+            type="text"
+            name="Vorname"
+            id="Vorname"
+            placeholder="Max"
+            autocomplete="on"
+            required
+            autofocus
+          />
+        </p>
+        <p>
+          <label for="Nachname">Nachname:</label>
+          <input
+            type="text"
+            name="Nachname"
+            id="Nachname"
+            placeholder="Mustermann"
+            autocomplete="on"
+            required
+          />
+        </p>
+        <p>
+          <label for="E-Mail">E-Mail:</label>
+          <input
+            type="mail"
+            name="E-Mail"
+            id="E-Mail"
+            placeholder="max.mustermann@gmail.com"
+            required
+          />
+        </p>
+      </form>
+    </article>
+
+    <hr />
+    <footer>
+      <!--Copyright-->
+      Michael Golm &copy;
+      <br /><a href="https://www.linkedin.com/in/michael-golm/">LinkedIn</a>
+      <p>
+        <a href="#">Zurück nach oben</a>
+      </p>
+    </footer>
+  </body>
+</html>
