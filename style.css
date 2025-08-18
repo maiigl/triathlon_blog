@@ -70,3 +70,19 @@ img {
   color: #333;
   text-align: justify;
 }
+
+.columns {
+  columns: 2;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.infos {
+  padding: 100px;
+  text-align: left;
+}
