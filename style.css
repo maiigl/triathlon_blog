@@ -4,23 +4,31 @@
   box-sizing: content-box;
 }
 
-html {
+html,
+button {
   font-family: "VT323", monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  padding: 1em;
+  padding: 0 1em 1em 1em;
   margin: 1em;
 }
 
 body {
   line-height: 1.5;
   background-color: #333;
-  color: whitesmoke;
+  color: blanchedalmond;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 a {
-  color: seashell;
+  color: blanchedalmond;
 }
 
 a:visited {
@@ -31,30 +39,42 @@ a:hover {
   color: white;
 }
 
-nav li {
-  border: 10px solid rgb(64, 51, 100);
-  border-radius: 20px;
-  background-color: seashell;
-  color: #333;
-  text-align: center;
-  font-size: 2rem;
-  margin: 0.5em;
+.logo {
+  height: 100px;
+  rotate: 45deg;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
   display: inline-block;
+  padding: 0 20px;
 }
 
-nav li a {
-  color: black;
-  text-decoration: none;
-  display: inline-block;
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  color: antiquewhite;
 }
 
-nav li a:visited {
-  color: rgb(26, 25, 25);
+.nav_links li a:hover {
+  color: darkgreen;
 }
 
-nav li a:hover {
-  color: seashell;
-  background-color: #333;
+button {
+  padding: 9px 25px;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 100, 0, 0.8);
+  color: blanchedalmond;
 }
 
 img {
@@ -62,11 +82,12 @@ img {
 }
 
 .battlebox {
-  border: 10px solid rgb(64, 51, 100);
+  border: 10px solid darkgreen;
   border-radius: 20px;
   font-size: 1.5rem;
   padding: 1em;
-  background-color: seashell;
+  margin: 1% 0;
+  background-color: blanchedalmond;
   color: #333;
   text-align: justify;
 }
@@ -79,10 +100,23 @@ img {
 
 h1 {
   text-align: center;
-  text-decoration: underline;
+  padding-top: 50px;
 }
 
 .infos {
   padding: 100px;
   text-align: left;
+}
+
+h2 {
+  padding: 3% 0;
+}
+
+p {
+  margin: 2% 0;
+}
+
+.donation {
+  list-style: none;
+  padding-bottom: 3%;
 }
