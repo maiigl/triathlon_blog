@@ -1,3 +1,5 @@
+/* Allgemeines*/
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +22,6 @@ body {
   color: blanchedalmond;
 }
 
-/* Navbar */
 header {
   display: flex;
   justify-content: space-between;
@@ -57,6 +58,7 @@ a:hover {
 .nav_links li a {
   transition: all 0.3s ease 0s;
   color: antiquewhite;
+  text-decoration: none;
 }
 
 .nav_links li a:hover {
@@ -77,7 +79,21 @@ button:hover {
   color: blanchedalmond;
 }
 
-img {
+h2 {
+  padding: 3% 0;
+}
+
+p {
+  margin: 2% 0;
+}
+
+/* Blog */
+article {
+  padding: 10%;
+}
+
+/* Über */
+.pixelimg {
   border-radius: 50px;
 }
 
@@ -108,13 +124,7 @@ h1 {
   text-align: left;
 }
 
-h2 {
-  padding: 3% 0;
-}
-
-p {
-  margin: 2% 0;
-}
+/* Spendenseite*/
 
 .donation {
   list-style: none;
