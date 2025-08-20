@@ -34,13 +34,14 @@
     </header>
     <hr />
 
-    <article id="contact">
+    <article class="contact">
       <h1>kontaktiere mich</h2>
       <p>
         Für Anmerkungen, Fragen und Feedback freue ich mich von dir zu hören!
       </p>
       <form action="https://httpbin.org/get" method="get">
         <fieldset>
+          <section class="contact_form">
           <legend>Zu dir</legend>
           <p>
             <label for="Vorname">Vorname:</label>
@@ -79,30 +80,24 @@
 
         <br />
 
-        <fieldset>
+        <fieldset class="contact_form">
           <legend>Deine Nachricht</legend>
 
           <label for="Nachricht"></label>
           <textarea
             name="Nachricht"
             id="Nachricht"
-            cols="30"
+            cols="75"
             rows="10"
             placeholder="Was möchtest du mir mitteilen?"
           ></textarea>
         </fieldset>
-
+</section>
         <br />
-
-        <button type="submit">Abschicken</button>
-        <button
-          type="submit"
-          formaction="https://httpbin.org/post"
-          formmethod="post"
-        >
-          Post
-        </button>
+        <div class="submitbutton">
         <button type="reset">Zurücksetzen</button>
+        <button type="submit">Abschicken</button>
+      </div>
       </form>
     </article>
 

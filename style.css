@@ -67,16 +67,18 @@ a:hover {
 
 button {
   padding: 9px 25px;
+  color: blanchedalmond;
   background-color: darkgreen;
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  margin: 3%;
 }
 
 button:hover {
   background-color: rgba(0, 100, 0, 0.8);
-  color: blanchedalmond;
+  color: white;
 }
 
 h2 {
@@ -93,6 +95,11 @@ article {
 }
 
 /* Über */
+
+.aboutme {
+  padding: 0 20%;
+}
+
 .pixelimg {
   border-radius: 50px;
 }
@@ -116,7 +123,6 @@ article {
 
 h1 {
   text-align: center;
-  padding-top: 50px;
 }
 
 .infos {
@@ -127,6 +133,34 @@ h1 {
 /* Spendenseite*/
 
 .donation {
+padding: 0 20%;
+}
+
+.donation_orgs {
   list-style: none;
   padding-bottom: 3%;
+}
+
+.donation_h2 {
+  text-align: center;
+}
+
+.donationimg {
+  display: block;
+  margin: 50px auto;
+  border-radius: 75px;
+}
+
+/* Kontakt */
+
+.contact {
+  padding: 0 20%;
+}
+
+.contact_form {
+  padding: 20px;
+}
+
+.submitbutton {
+  text-align: center;
 }
