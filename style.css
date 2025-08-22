@@ -26,6 +26,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: #333333;
+  border-bottom: 2px solid blanchedalmond;
 }
 
 a {
@@ -133,7 +138,7 @@ h1 {
 /* Spendenseite*/
 
 .donation {
-padding: 0 20%;
+  padding: 0 20%;
 }
 
 .donation_orgs {
