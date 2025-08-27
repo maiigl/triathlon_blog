@@ -86,6 +86,49 @@ button:hover {
   color: white;
 }
 
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* direkt unter "archiv" */
+  left: 0;
+  background-color: #333;
+  border: 1px solid blanchedalmond;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 200px;
+  z-index: 1000;
+}
+
+.dropdown_menu li {
+  display: block;
+}
+
+.dropdown_menu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  transition: background 0.3s ease;
+}
+
+.dropdown_menu li a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/* Dropdown sichtbar bei Hover */
+.dropdown:hover .dropdown_menu {
+  display: block;
+}
+
 h2 {
   padding: 3% 0;
   text-align: center;
@@ -95,12 +138,11 @@ p {
   margin: 2% 0;
 }
 
-
 /* Blog */
 
 .thumbnail {
-width: 100%;
-border-radius: 20px;
+  width: 100%;
+  border-radius: 20px;
 }
 article {
   padding: 3% 20%;
@@ -110,11 +152,11 @@ article {
   max-width: 400px;
   float: right;
   padding: 0 5%;
-  }
+}
 
 .change {
-display: inline-flex;
-columns: 2;
+  display: inline-flex;
+  columns: 2;
 }
 
 .klimavor8img {
@@ -158,8 +200,6 @@ h1 {
   padding: 100px;
   text-align: left;
 }
-
-
 
 /* Spendenseite*/
 
