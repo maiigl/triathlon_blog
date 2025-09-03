@@ -24,9 +24,9 @@
       <img src="img/icon.png" alt="logo" class="logo" />
       <nav>
         <ul class="nav_links">
-          <li><a href="index.html">blog</a></li>
+          <li class="hideOnMobile"><a href="index.html">blog</a></li>
 
-          <li class="dropdown">
+          <li class="hideOnMobile dropdown">
             <a href="archive.html">archiv ▾</a>
             <ul class="dropdown_menu">
               <li><a href="#">Artikel 1</a></li>
@@ -35,11 +35,55 @@
             </ul>
           </li>
 
-          <li><a href="about.html">über</a></li>
-          <li><a href="donation.html">spenden</a></li>
+          <li class="hideOnMobile"><a href="about.html">über</a></li>
+          <li class="hideOnMobile"><a href="donation.html">spenden</a></li>
+          <li class="hideOnMobile"><a href="contact.html">kontakt</a></li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="#e3e3e3"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                /></svg
+            ></a>
+          </li>
         </ul>
       </nav>
-      <a class="cta" href="contact.html"><button>kontakt</button></a>
+
+      <div class="sidebar">
+        <nav>
+          <ul class="nav_links">
+            <li onclick="hideSidebar()">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26px"
+                  viewBox="0 -960 960 960"
+                  width="26px"
+                  fill="#e3e3e3"
+                >
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                  /></svg
+              ></a>
+            </li>
+            <li><a href="index.html">blog</a></li>
+
+            <li class="dropdown">
+              <a href="archive.html">archiv</a>
+            </li>
+
+            <li><a href="about.html">über</a></li>
+            <li><a href="donation.html">spenden</a></li>
+            <li><a href="contact.html">kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 <hr>  
 
@@ -120,5 +164,6 @@
         <a href="#">Zurück nach oben</a>
       </p>
     </footer>
+        <script src="main.js"></script>
   </body>
 </html>
