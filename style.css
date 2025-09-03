@@ -165,6 +165,11 @@ button:hover {
     display: inline-block !important;
   }
 }
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100% !important;
+  }
+}
 
 h2 {
   padding: 3% 0;
