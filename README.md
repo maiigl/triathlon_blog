@@ -1,47 +1,59 @@
-# sustainability-blog
+# Mein Triathlon-Blog – Der Weg zur Challenge Roth 2026
 
-## Overview
-The **sustainability-blog** is a personal project focused on raising awareness and sharing insights about sustainability, eco-friendly living, and environmental topics. This project is designed to showcase both front-end development skills and an interest in creating meaningful, educational content.
+Willkommen zu meinem persönlichen Blog! 🚴🏊‍♂️🏃  
+Hier dokumentiere ich meinen Weg von meinen ersten Läufen im Jahr 2023 bis hin zu meinem großen Ziel: **meine erste Langdistanz bei der Challenge Roth im Juli 2026**.
 
-The website is built using **HTML, CSS, and JavaScript**, and is currently in development. It will continue to evolve with new features, styling improvements, and content updates over time.
-
-## Features
-- Responsive layout (mobile-first design)
-- Clean and modern user interface
-- Easy-to-read articles and blog posts
-- Open-source code for learning and collaboration
-
-> Note: Additional features may be implemented as the project evolves.
-
-## Target Audience
-This project is intended for:
-- Recruiters evaluating front-end development skills
-- Developers and enthusiasts interested in sustainable living
-- Anyone exploring the source code for educational purposes
+Der Blog ist wie ein Fortschrittstagebuch aufgebaut und richtet sich an alle, die sich für Triathlon, Training, Motivation und persönliche Entwicklung interessieren.
 
 ---
 
-## 🇩🇪 Deutsch
+## Inhalt & Aufbau
 
-# sustainability-blog
+- **Monatliche Updates**: Einblicke in meinen Trainingsalltag, Fortschritte und Herausforderungen.
+- **Milestones**: Berichte über Wettkämpfe (z. B. Halbmarathons, Marathon, olympische und Mitteldistanz-Triathlons) und besondere Trainingserfolge.
+- **Persönliche Erfahrungen**: Offene und ehrliche Einblicke – nicht nur Erfolge, sondern auch Rückschläge, Fehler und Learnings.
+- **Motivation**: Wie ich Training, Beruf und Privatleben vereine und welche Strategien mir helfen, dranzubleiben.
 
-![Screenshot](./screenshot.png)
+---
 
-## Übersicht
-Der **sustainability-blog** ist ein persönliches Projekt, das sich auf das Bewusstsein für Nachhaltigkeit, umweltfreundliches Leben und ökologische Themen konzentriert. Ziel des Projekts ist es, sowohl Front-End-Entwicklungsfähigkeiten zu demonstrieren als auch sinnvolle, informative Inhalte zu präsentieren.
+## Meine bisherigen Meilensteine
 
-Die Website wird mit **HTML, CSS und JavaScript** erstellt und befindet sich derzeit in der Entwicklungsphase. Sie wird mit der Zeit um neue Funktionen, Verbesserungen im Design und zusätzliche Inhalte erweitert.
+- **April 2023** – Erster Halbmarathon (Berlin)
+- **September 2024** – Erster Marathon (Berlin)
+- **Juni 2025** – Erste olympische Triathlon-Distanz
+- **August 2025** – Erste Mitteldistanz
 
-## Funktionen
-- Responsives Layout (Mobile-First-Design)
-- Saubere und moderne Benutzeroberfläche
-- Einfach lesbare Artikel und Blogbeiträge
-- Open-Source-Code zum Lernen und zur Zusammenarbeit
+Diese Schritte haben mich zu meinem Entschluss geführt, an der **Challenge Roth 2026** teilzunehmen.
 
-> Hinweis: Weitere Funktionen können im Laufe des Projekts hinzugefügt werden.
+---
 
-## Zielgruppe
-Dieses Projekt richtet sich an:
-- Recruiter, die Front-End-Entwicklungsfähigkeiten bewerten
-- Entwickler und Interessierte, die sich für nachhaltiges Leben interessieren
-- Alle, die den Quellcode zu Lernzwecken erkunden möchten
+## Ziel des Blogs
+
+Ich möchte meine Leser nicht belehren, sondern sie auf meiner Reise begleiten.  
+Der Blog soll **authentisch, ehrlich und inspirierend** sein. Ich zeige:
+
+- wie man sich Schritt für Schritt entwickelt,
+- wie man Rückhalt aus Familie und Beruf nutzt,
+- und dass Triathlon nicht nur aus Erfolgen besteht, sondern auch aus Herausforderungen.
+
+---
+
+## Ausblick
+
+Bis Juli 2026 dokumentiere ich hier meinen Weg zur Challenge Roth.  
+Geplant sind:
+
+- Monatliche Fortschrittsberichte
+- Detaillierte Einblicke in Training & Wettkämpfe
+- Reflexionen über Motivation, Rückschläge und Learnings
+
+---
+
+## Lizenz
+
+Dieses Projekt dient als persönliches Blog-Tagebuch. Inhalte sind urheberrechtlich geschützt.  
+Eine Weiterverwendung ist nur nach Rücksprache mit mir möglich.
+
+---
+
+👋 **Begleite mich auf meiner Reise zur Challenge Roth 2026 – es wird spannend!**
